@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itachi Uchiha</title>
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('https://example.com/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-bottom: #ff6347 3px solid;
+            border-radius: 10px 10px 0 0;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        header h1 {
+            text-transform: uppercase;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .content img:hover {
+            transform: scale(1.05);
+        }
+
+        .content p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+            color: #ddd;
+        }
+
+        .profile-image {
+            margin: 20px 0;
+            animation: fadeIn 4s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Itachi Uchiha</h1>
+        </div>
+    </header>
+    <div class="container content">
+        <h2>About Itachi Uchiha</h2>
+        <p>Itachi Uchiha is a character from the manga and anime series Naruto. He is a member of the Uchiha clan and a former captain of the Anbu. Itachi is known for his calm demeanor, intelligence, and formidable ninja abilities. He is one of the most complex and beloved characters in the series, often depicted as a tragic hero with a deep sense of loyalty and sacrifice.</p>
+        <img src="https://example.com/itachi-image1.jpg" alt="Itachi Uchiha Image 1">
+        
+        <!-- Profile Image from S3 -->
+        <img class="profile-image" src="https://your-s3-bucket-url/profile.png" alt="Profile Image">
+
+        <img src="https://example.com/itachi-image2.jpg" alt="Itachi Uchiha Image 2">
+        <h2>Itachi Uchiha GIF</h2>
+        <img src="https://example.com/itachi-gif.gif" alt="Itachi Uchiha GIF">
+    </div>
+</body>
+</html>
